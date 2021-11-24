@@ -1,0 +1,23 @@
+/* BLOCK */
+.Background {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  z-index: 100;
+  left: 0;
+  top: 0;
+  opacity: 0;
+  background-color: white;
+}
+
+/* MODIFIERS */
+.Background_opaque {
+  opacity: 0.8;
+  backdrop-filter: saturate(0.2) blur(5px);
+}
+.Background_dark {
+  background-color: black;
+}
+.Background_clickable {
+  cursor: pointer;
+}
